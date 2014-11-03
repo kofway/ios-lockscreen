@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 278px 0 0 0;
+    height: 960px;
+    width: 640px;
+	background-image:url('LockBackground.png');
+    background-size: 61%;
+    background-repeat: no-repeat; /* can be removed, only for test purpose */
+}
+
+#day {
+    top:107px;
+    left:75px;
+}
+
+#dayNumeric {
+    top:102px;
+    left:15px;
+}
+
+#month {
+    top:80px;
+    left:57px;
+
+}
+
+#year {
+    top:148px;
+    left:47px;
+
+    }
+
+#divtable {
+    top: -457px;
+    left: 7px;
+    height: 461px;
+
+    }
+
+#hr1, #hr2, #mn1, #mn2 {
+    width:37;
+    height:50;
+    }
+
+#ampm {
+    width:20;
+    height:40;
+
+    }
+
+
+#day, #dayNumeric, #month, #year, #divtable, #mainDiv{ position:absolute; }
+
